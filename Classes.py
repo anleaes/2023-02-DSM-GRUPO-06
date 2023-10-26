@@ -15,9 +15,9 @@ class Ordem(Cliente):
         self._preco_total = preco_total
         self._status = status
                
-# Classe Ordem de item        
+# Classe Ordem de item com herança do Produto        
 class Order_Item(Produto):
     def __init__(self,nome, descricao, data_fabricacao, ativo, quantidade, preco_unidade):
         super().__init__(nome, descricao, data_fabricacao, ativo)
         self._quantidade = quantidade
-        self._preco_unitario = preco_unidade
+        self._preco_unidade = preco_unidade
