@@ -19,8 +19,8 @@ class Ordem(Cliente):
   
                 
 # Classe Ordem de item com herança do Produto        
-#class Order_Item(Produto):
-#    def __init__(self,nome, descricao, data_fabricacao, ativo, quantidade, preco_unidade):
-#        super().__init__(nome, descricao, data_fabricacao, ativo)
-#        self._quantidade = quantidade
-#        self._preco_unidade = preco_unidade
+class Order_Item(Produto):
+    def __init__(self,nome, descricao, data_fabricacao, ativo, quantidade, preco_unidade):
+        super().__init__(nome, descricao, data_fabricacao, ativo)
+        self._quantidade = quantidade
+        self._preco_unidade = preco_unidade
