@@ -2,3 +2,5 @@ db.sqlite3
 modeloapp/__pycache__/*
 /apps/usuarios/__pycache__/*
 /apps/usuarios/migrations/*
+/apps/localizacoes/migrations/*
+/apps/localizacoes/__pycache__/*
