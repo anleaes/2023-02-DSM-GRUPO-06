@@ -1,6 +1,7 @@
 from django.db import models
 from usuarios.models import Usuario
 from localizacoes.models import Localizacao
+from fornecedores.models import Fornecedor
 
 # Create your models here.
 
