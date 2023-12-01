@@ -48,6 +48,8 @@ INSTALLED_APPS = [
     'localizacoes.apps.LocalizacoesConfig',
     'solicitacoes.apps.SolicitacoesConfig',
     'fornecedores.apps.FornecedoresConfig',
+    'avaliacoes.apps.AvaliacoesConfig',
+
 ]
 
 MIDDLEWARE = [

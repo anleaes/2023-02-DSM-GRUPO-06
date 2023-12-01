@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from .models import Fornecedor
-from .models import Solicitacao
 from rest_framework import viewsets
 from .serializer import FornecedorSerializer
 
@@ -8,4 +7,4 @@ from .serializer import FornecedorSerializer
 
 class FornecedorViewSet(viewsets.ModelViewSet):
     queryset = Fornecedor.objects.all()
-    serializer_class = FornecedorSerializer 
+    serializer_class = FornecedorSerializer
