@@ -8,3 +8,6 @@ modeloapp/__pycache__/*
 /apps/solicitacoes/migrations/*
 /apps/fornecedores/__pycache__/*
 /apps/fornecedores/migrations/*
+/apps/avaliacoes/migrations/*
+/apps/avaliacoes/__pycache__/*
+
