@@ -4,3 +4,5 @@ modeloapp/__pycache__/*
 /apps/usuarios/migrations/*
 /apps/localizacoes/migrations/*
 /apps/localizacoes/__pycache__/*
+/apps/solicitacoes/__pycache__/*
+/apps/solicitacoes/migrations/*

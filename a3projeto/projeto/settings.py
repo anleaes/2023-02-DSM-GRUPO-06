@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'usuarios.apps.UsuariosConfig',
     'localizacoes.apps.LocalizacoesConfig',
+    'solicitacoes.apps.SolicitacoesConfig',
 ]
 
 MIDDLEWARE = [
