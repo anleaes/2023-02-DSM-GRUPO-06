@@ -5,6 +5,6 @@ from .serializer import FornecedorSerializer
 
 # Create your views here.
 
-class LocalizacaoViewSet(viewsets.ModelViewSet):
+class FornecedorViewSet(viewsets.ModelViewSet):
     queryset = Fornecedor.objects.all()
     serializer_class = FornecedorSerializer
