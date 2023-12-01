@@ -1,0 +1,12 @@
+from django.urls import path, include
+from . import views
+from rest_framework import routers
+
+app_name = 'fornecedores'
+
+router = routers.DefaultRouter()
+router.register('', views.SolicitacaoViewSet, basename='fornecedores')
+
+urlpatterns = [
+    path('', include(router.urls) )
+]
