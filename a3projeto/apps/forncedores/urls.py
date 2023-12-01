@@ -6,7 +6,7 @@ from rest_framework import routers
 app_name = 'fornecedores'
 
 router = routers.DefaultRouter()
-router.register('', views.LocalizacaoViewSet, basename='fornecedores')
+router.register('', views.FornecedorViewSet, basename='fornecedores')
 
 urlpatterns = [
     path('', include(router.urls) )
