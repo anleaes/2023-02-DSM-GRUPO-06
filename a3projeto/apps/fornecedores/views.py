@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Fornecedor
 from .models import Solicitacao
 from rest_framework import viewsets
 from .serializer import FornecedorSerializer
