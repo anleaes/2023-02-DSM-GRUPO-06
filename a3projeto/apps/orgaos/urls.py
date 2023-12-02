@@ -10,27 +10,3 @@ router.register('', views.OrgaoViewSet, basename='orgaos')
 urlpatterns = [
     path('', include(router.urls) )
 ]
-app_name = 'orgaos'
-
-router = routers.DefaultRouter()
-router.register('', views.OrgaoViewSet, basename='orgaos')
-
-urlpatterns = [
-    path('', include(router.urls) )
-]
-app_name = 'orgaos'
-
-router = routers.DefaultRouter()
-router.register('', views.OrgaoViewSet, basename='orgaos')
-
-urlpatterns = [
-    path('', include(router.urls) )
-]
-app_name = 'orgaos'
-
-router = routers.DefaultRouter()
-router.register('', views.OrgaoViewSet, basename='orgaos')
-
-urlpatterns = [
-    path('', include(router.urls) )
-]
