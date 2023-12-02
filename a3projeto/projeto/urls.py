@@ -25,4 +25,5 @@ urlpatterns = [
     path('avaliacoes/', include('avaliacoes.urls', namespace='avaliacoes')),
     path('fornecedores/', include('fornecedores.urls', namespace='fornecedores')),
     path('orgaos/', include('orgaos.urls', namespace='orgaos')),
+    path('servicos/', include('servicos.urls', namespace='servicos')),
 ]
