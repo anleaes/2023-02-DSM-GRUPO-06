@@ -10,4 +10,6 @@ modeloapp/__pycache__/*
 /apps/fornecedores/migrations/*
 /apps/avaliacoes/migrations/*
 /apps/avaliacoes/__pycache__/*
+/apps/orgaos/migrations/*
+/apps/orgaos/__pycache__/*
 
