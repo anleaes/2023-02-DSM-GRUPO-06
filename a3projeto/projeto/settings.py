@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'avaliacoes.apps.AvaliacoesConfig',
     'orgaos.apps.OrgaosConfig',
     'servicos.apps.ServicosConfig',
+    'materiais.apps.MateriaisConfig',
 
 ]
 
