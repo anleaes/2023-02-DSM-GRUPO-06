@@ -5,6 +5,7 @@ from fornecedores.models import Fornecedor
 class Material(models.Model):
     namematerial = models.CharField('Nome do material', max_length=50)
     quantidade = models.TextField('Quantidade', max_length=100)
+    fornecedor = models.ForeignKey(Fornecedor, on_delete=models.CASCADE)
 
     
     class Meta:
