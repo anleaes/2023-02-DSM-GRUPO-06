@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'orgaos.apps.OrgaosConfig',
     'servicos.apps.ServicosConfig',
     'materiais.apps.MateriaisConfig',
+    'materiaisitens.apps.MateriaisitensConfig',
 
 ]
 
