@@ -6,8 +6,10 @@ from solicitacoes.models import Solicitacao
 class Avaliacao(models.Model):
     classificacao = models.CharField('Classificao', max_length=50)
     comentarios = models.TextField('Comentarios', max_length=100)
-    dataavaliacao = models.DateField('Data de avaliacao', auto_now=False, auto_now_add=False) 
+    dataavaliacao = models.DateField('Data de avaliacao', max_length=100) 
     solicitacao = models.ForeignKey(Solicitacao, on_delete=models.CASCADE)
+
+
 
     class Meta:
         verbose_name = 'Avaliacao'

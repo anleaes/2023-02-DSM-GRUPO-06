@@ -1,15 +1,11 @@
 from django.db import models
-from usuarios.models import Usuario
-from localizacoes.models import Localizacao
-from fornecedores.models import Fornecedor
 
 # Create your models here.
 
-class Solicitacao(models.Model):
-    nomeEmpresa = models.CharField('Nome', max_length=50)
-    listaMateriais = models.ForeignKey(Materiais, on_delete=models.CASCADE)
-    fornecedor = models.ForeignKey(Fornecedor, on_delete=models.CASCADE)
-
+class Fornecedor(models.Model):
+    nomeEmpresa = models.CharField('Nome Empresa', max_length=50)
+    preço = models.CharField('Preço', max_length=50)
+    listamaterial = models.CharField('Lista mateial', max_length=50)
 
     class Meta:
         verbose_name = 'Fornecedor'

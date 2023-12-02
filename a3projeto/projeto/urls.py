@@ -23,4 +23,5 @@ urlpatterns = [
     path('localizacoes/', include('localizacoes.urls', namespace='localizacoes')),
     path('solicitacoes/', include('solicitacoes.urls', namespace='solicitacoes')),
     path('avaliacoes/', include('avaliacoes.urls', namespace='avaliacoes')),
+    path('fornecedores/', include('fornecedores.urls', namespace='fornecedores')),
 ]
