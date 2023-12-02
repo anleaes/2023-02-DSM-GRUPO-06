@@ -12,5 +12,7 @@ modeloapp/__pycache__/*
 /apps/avaliacoes/__pycache__/*
 /apps/orgaos/migrations/*
 /apps/orgaos/__pycache__/*
+/apps/servicos/migrations/*
+/apps/servicos/__pycache__/*
 
 
