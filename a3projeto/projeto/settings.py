@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'solicitacoes.apps.SolicitacoesConfig',
     'fornecedores.apps.FornecedoresConfig',
     'avaliacoes.apps.AvaliacoesConfig',
+    'orgaos.apps.OrgaosConfig',
 
 ]
 
